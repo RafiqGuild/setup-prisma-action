@@ -1,5 +1,5 @@
-name: 'Wait'
-description: 'Wait a designated number of milliseconds'
+name: 'Prisma Setup'
+description: 'Pull down credentials from AWS secrets and set Prisma env var'
 inputs:
   milliseconds:  # id of input
     description: 'number of milliseconds to wait'
